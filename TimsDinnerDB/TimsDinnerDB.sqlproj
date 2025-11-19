@@ -65,4 +65,7 @@
     <Build Include="dbo\Tables\Food.sql" />
     <Build Include="dbo\Tables\Order.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
+  </ItemGroup>
 </Project>
