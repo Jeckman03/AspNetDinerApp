@@ -3,7 +3,7 @@ using DataLibrary.Models;
 
 namespace DataLibrary.Data
 {
-    public class FoodData
+    public class FoodData : IFoodData
     {
         private readonly IDataAccess _dataAccess;
         private readonly ConnectionStringData _connectionString;
